@@ -49,6 +49,11 @@ The verification focuses on:
 - FIFO full condition
 - FIFO empty condition
 - Operation with different clock frequencies
+## Simulation Result
+
+The following waveform demonstrates asynchronous FIFO write and read operations using independent write and read clocks.
+
+![Asynchronous FIFO Simulation Waveform](asyn_fifo_waveform.png)
 
 ## Tools
 
