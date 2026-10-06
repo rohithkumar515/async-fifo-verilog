@@ -63,13 +63,15 @@ The following waveform demonstrates asynchronous FIFO write and read operations 
 
 ## Concepts Demonstrated
 
-This project demonstrates practical RTL concepts including:
+This project demonstrates:
 
-- Clock Domain Crossing (CDC)
 - Asynchronous FIFO architecture
-- Pointer synchronization
-- Sequential logic
-- FIFO status generation
+- Independent clock domains
+- Binary read and write pointers
+- Two-flop pointer synchronization
+- FIFO full detection
+- FIFO empty detection
+- Dual-clock FIFO operation
 - RTL testbench development
 
 ## Author
